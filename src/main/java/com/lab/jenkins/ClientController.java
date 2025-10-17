@@ -12,7 +12,7 @@ public class ClientController {
 	
 	@GetMapping("")
 	public String server() {
-		return "Server Running";
+		return "<h1> Server Running </h1>";
 	}
 	
 	@GetMapping("/profile")
